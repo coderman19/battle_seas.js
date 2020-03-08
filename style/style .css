@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+div#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("") no-repeat;
+}
+
+div#messageArea {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: rgb(85, 175, 20);
+
+}
+
+table {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: .5px solid green;
+}
+
+form {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    padding: 15px;
+    background-color: rgb(85, 175, 20);
+    margin-right: 155px;
+}
+
+form input {
+    background-color: rgb(150, 200, 110);
+    border-color: rgb(85, 175, 20);
+    font-size: 1.1em;
+}
+
+.hit {
+    background: red;
+}
+
+.miss {
+    background: yellow;
+}
